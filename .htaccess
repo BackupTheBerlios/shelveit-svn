@@ -1,0 +1,7 @@
+   # If you are using PHP 5, you have to use <IfModule mod_php5.c>
+   # instead of <IfModule mod_php4.c>.
+<IfModule mod_php5.c>.
+   php_value magic_quotes_gpc        0
+   php_value include_path            .:/usr/local/lib/php:/usr/local/lib/php/Smarty:/usr/lib/php:/usr/lib/php/Smarty:./Smarty
+</IfModule>
+
